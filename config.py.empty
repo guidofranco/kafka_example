@@ -1,0 +1,7 @@
+# API Transporte keys
+CLIENT_ID = ""
+CLIENT_SECRET = ""
+
+# Kafka broker server
+BROKER_NAME = ""
+BROKER_PORT = 9092
