@@ -35,8 +35,6 @@ if response.status_code == 200:
     df_stations.to_csv(f"{data_dir}/stations.csv", index=None)
     
     logging.info(f"Los datos han sido almacenados en {data_dir}")
-    #print("Success")
 else:
-    #print(response.status_code)
     logging.error(f"Codigo de error HTTP: {response.status_code}")
 
