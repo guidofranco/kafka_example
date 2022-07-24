@@ -25,7 +25,7 @@ if response.status_code == 200:
 
     data = response["data"]["stations"]
     df_stations = pd.DataFrame(data)
-    df_stations.to_csv(f"{data_dir}/stations.csv")
+    df_stations.to_csv(f"{data_dir}/stations.csv", index=None)
 
     print("Success")
 else:
